@@ -1,0 +1,69 @@
+:root {
+    --colour-main: #1cbfe8;
+    --colour-secondary:  #87b4eb;
+    --colour-tertiary: #65b689;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #c8f4d6;
+    padding: 24px;
+}
+
+.header__page-title {
+    color: cadetblue;
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+}
+
+.animal-tab {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--colour-tertiary);
+    padding: 8px 24px;
+}
+
+.tab {
+    background-color: var(--colour-main);
+    border-radius: 10px;
+    color: black;
+    padding: 8px 16px;
+    font-weight: 700;
+}
+
+.active {
+    background-color: cadetblue;
+    color: #000;
+}
+
+.content {
+    display: none;
+    border-radius: 10px;
+    margin: 24px;
+    padding: 24px;
+    background-color: #87b4eb;
+}
+
+.featured {
+    display: block;
+}
+
+.search-field {
+    text-align: center;
+    padding: 10px;
+    background-color: #c8f4d6;
+}
+
+.search-field input {
+    border-color: #5fa0ef;
+    border-radius: 10px;
+    padding: 8px;
+}
